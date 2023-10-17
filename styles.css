@@ -54,6 +54,7 @@ body {
 
 .contact > a > img {
     width: 2.5em;
+    height: 2.5em;
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
@@ -64,6 +65,7 @@ body {
 
 .avatar > img {
     width: 17em;
+    height: 17em;
     border-radius: 50%;
     float: right;
 }
@@ -71,12 +73,14 @@ body {
 @media screen and (max-width: 768px) {
     .avatar > img {
         width: 10em;
+        height: 10em;
         border-radius: 50%;
         float: right;
     }
 
     .contact > a > img {
         width: 2em;
+        height: 2em;
     }
 
     .contact a:not(:first-child) {
