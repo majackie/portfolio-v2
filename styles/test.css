@@ -70,14 +70,10 @@ span {
 
 .square {
     width: 90%;
-    position: relative;
-    top: -1em;
 }
 
 .landscape {
     width: 90%;
-    position: relative;
-    top: -5em;
 }
 
 .portrait {
@@ -128,8 +124,6 @@ span {
     }
 
     .text {
-        /* width: 60%; */
-        /* text-align: left; */
         margin-top: 10%;
     }
 
@@ -148,14 +142,10 @@ span {
 
     .square {
         width: 45%;
-        position: relative;
-        top: 0em;
     }
 
     .landscape {
         width: 50%;
-        position: relative;
-        top: 0em;
     }
 
     .portrait {
