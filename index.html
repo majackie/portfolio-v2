@@ -5,29 +5,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jackie Ma</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/test.css">
 </head>
 
 <body>
-
     <div class="container">
-        <div class="avatar">
-            <img src="./avatar.jpeg" alt="avatar">
-        </div>
-        <div class="info">
-            <span>Jackie Ma</span>
-            <span>Software Developer</span>
-        </div>
-        <div class="contact">
-            <a href="https://github.com/majackie"><img src="./github.svg" alt="github"
-                     id="github"></a>
-            <a href="https://www.linkedin.com/in/majackie-/"><img src="./linkedin.svg"
-                     alt="linkedin" id="linkedin"></a>
-            <a href="https://drive.google.com/file/d/18MDspI9SvfttzHsr9LGvnU1mbXIPrfK5/view"><img
-                     src="./file-pdf-regular.svg" alt="resume" id="resume"></a>
-        </div>
-    </div>
+        <section class="about">
+            <div class="content">
+                <div class="avatar">
+                    <img src="./images/avatar.jpeg" alt="avatar" class="picture">
+                </div>
+                <div class="info">
+                    <span class="name">Jackie Ma</span>
+                    <span class="position">Software Developer</span>
+                </div>
+            </div>
+            <div class="contact">
+                <a href="https://github.com/majackie">
+                    <img src="./images/github.svg" alt="github" class="icon">
+                </a>
+                <a href="https://www.linkedin.com/in/majackie-/">
+                    <img src="./images/linkedin.svg" alt="linkedin" class="icon">
+                </a>
+                <a href="https://drive.google.com/file/d/18MDspI9SvfttzHsr9LGvnU1mbXIPrfK5/view">
+                    <img src="./images/file-pdf-regular.svg" alt="resume" class="icon">
+                </a>
+            </div>
+        </section>
 
+        <section class="projects">
+            <div class="text">
+                <span class="heading">MealPlanIQ</span>
+                <span class="subheading">Contracted Project</span>
+                <br>
+                <span class="heading">Timeline</span>
+                <span class="subheading">May 2023</span>
+                <br>
+                <span class="heading">Description</span>
+                <span class="subheading">Fighting diseases through meal planning.</span>
+                <br>
+                <span class="heading">Technologies</span>
+                <span class="subheading">Python, Flask, Numpy, Pandas, PostgreSQL</span>
+                <span class="subheading">TypeScript, Angular, Angular Material</span>
+                <span class="subheading">Google Cloud Platform</span>
+            </div>
+            <video autoplay loop muted class="square">
+                <source src="videos/mealplaniq.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section class="projects">
+            <div class="text">
+                <span class="heading">HarmonyHub</span>
+                <span class="subheading">Personal Project</span>
+                <br>
+                <span class="heading">Timeline</span>
+                <span class="subheading">November 2023</span>
+                <br>
+                <span class="heading">Description</span>
+                <span class="subheading">Look up details for artists, albums, playlists and
+                    profiles.
+                    Retrieve most played artists and tracks to create a new playlist.</span>
+                <br>
+                <span class="heading">Technologies</span>
+                <span class="subheading">SwiftUI, Spotify API</span>
+            </div>
+            <video autoplay loop muted class="portrait">
+                <source src="videos/harmonyhub.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section class="projects">
+            <div class="text">
+                <span class="heading">Charity</span>
+                <span class="subheading">School Project</span>
+                <br>
+                <span class="heading">Timeline</span>
+                <span class="subheading">November 2023</span>
+                <br>
+                <span class="heading">Description</span>
+                <span class="subheading">Management system for charity to collect donations and
+                    provide tax receipts.</span>
+                <br>
+                <span class="heading">Technologies</span>
+                <span class="subheading">ASP.NET Core, Entity Framework Code, Blazor Server</span>
+                <span class="subheading">Microsoft Azure</span>
+            </div>
+            <video autoplay loop muted class="landscape">
+                <source src="videos/chartiy.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section class="projects">
+            <div class="text">
+                <span class="heading">Blood Pressure</span>
+                <span class="subheading">School Project</span>
+                <br>
+                <span class="heading">Timeline</span>
+                <span class="subheading">November 2023</span>
+                <br>
+                <span class="heading">Description</span>
+                <span class="subheading">Keep track of family member's blood pressure
+                    readings.</span>
+                <br>
+                <span class="heading">Technologies</span>
+                <span class="subheading">SwiftUI, Firestore</span>
+            </div>
+            <video autoplay loop muted class="portrait">
+                <source src="videos/blood_pressure.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section class="projects">
+            <div class="text">
+                <span class="heading">Calculator Clone</span>
+                <span class="subheading">Personal Project</span>
+                <br>
+                <span class="heading">Timeline</span>
+                <span class="subheading">August 2023</span>
+                <br>
+                <span class="heading">Description</span>
+                <span class="subheading">Functional replica of a standard calculator, designed
+                    for everyday calculations.</span>
+                <br>
+                <span class="heading">Technologies</span>
+                <span class="subheading">HTML, CSS, JS</span>
+                <div class="subheading">Netlify</div>
+            </div>
+            <video autoplay loop muted class="square">
+                <source src="videos/calculator.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </div>
 </body>
 
 </html>

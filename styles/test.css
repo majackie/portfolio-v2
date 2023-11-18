@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.projects {
+    justify-content: space-evenly;
+    gap: 0em;
+}
+
+.picture {
+    border-radius: 50%;
+    width: 17em;
+    height: 17em;
+}
+
+.info {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.name {
+    font-size: 5em;
+}
+
+.position {
+    font-size: 2.5em;
+}
+
+span {
+    display: block;
+}
+
+.icon {
+    float: left;
+    width: 3em;
+    height: 3em;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    margin: 1.5em;
+}
+
+.text {
+    width: 60%;
+}
+
+.heading {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.subheading {
+    font-size: 1.5em;
+}
+
+.square {
+    width: 90%;
+    position: relative;
+    top: -1em;
+}
+
+.landscape {
+    width: 90%;
+    position: relative;
+    top: -5em;
+}
+
+.portrait {
+    height: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+    .projects {
+        align-items: flex-start;
+        flex-direction: row;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .picture {
+        width: 17em;
+        height: 17em;
+    }
+
+    .info {
+        text-align: left;
+        margin-top: 0em;
+    }
+
+    .name {
+        font-size: 7em;
+    }
+
+    .position {
+        font-size: 3.5em;
+    }
+
+    .icon {
+        width: 3em;
+        height: 3em;
+    }
+
+    .text {
+        /* width: 60%; */
+        /* text-align: left; */
+        margin-top: 10%;
+    }
+
+    .heading {
+        font-size: 3em;
+    }
+
+    .subheading {
+        font-size: 2em;
+    }
+
+    video {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .square {
+        width: 45%;
+        position: relative;
+        top: 0em;
+    }
+
+    .landscape {
+        width: 50%;
+        position: relative;
+        top: 0em;
+    }
+
+    .portrait {
+        height: 70%;
+        width: 50%;
+    }
+}
