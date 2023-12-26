@@ -1,174 +1,179 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
 body {
-    background-color: black;
-    color: white;
-    font-family: 'Teko', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
+	background-color: black;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
 }
 
 /* .projects:nth-of-type(2n) {
     background-color: grey;
 } */
 
+a {
+	text-decoration: none;
+	color: grey;
+}
+
 section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2em;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2em;
 }
 
 .about {
-    height: 100svh;
+	height: 100svh;
 }
 
 .projects {
-    justify-content: space-evenly;
-    gap: 0em;
+	justify-content: space-evenly;
+	gap: 0em;
 }
 
 .picture {
-    border-radius: 50%;
-    width: 17em;
-    height: 17em;
-    align-items: center;
+	border-radius: 50%;
+	width: 17em;
+	height: 17em;
+	align-items: center;
 }
 
 .info {
-    text-align: center;
-    margin-top: 3em;
+	text-align: center;
+	margin-top: 3em;
 }
 
 .name {
-    font-size: 5em;
+	font-size: 5em;
 }
 
 .position {
-    font-size: 2.5em;
+	font-size: 2.5em;
 }
 
 span {
-    display: block;
+	display: block;
 }
 
 .icon {
-    float: left;
-    width: 3em;
-    height: 3em;
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
-    margin: 1.5em;
+	float: left;
+	width: 3em;
+	height: 3em;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	margin: 1.5em;
 }
 
 .text {
-    width: 60%;
+	width: 60%;
 }
 
 .heading {
-    font-size: 2em;
-    font-weight: bold;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 .subheading {
-    font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 .square {
-    width: 90%;
+	width: 90%;
 }
 
 .landscape {
-    width: 90%;
+	width: 90%;
 }
 
 .portrait {
-    height: 50%;
+	height: 50%;
 }
 
 @media screen and (min-width: 1024px) {
-    .projects {
-        align-items: flex-start;
-        flex-direction: row;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+	.projects {
+		align-items: flex-start;
+		flex-direction: row;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
 
-    .about {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .content {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 2em;
-    }
+	.about {
+		display: flex;
+		flex-direction: column;
+	}
 
-    .picture {
-        width: 17em;
-        height: 17em;
-    }
+	.content {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 2em;
+	}
 
-    .info {
-        text-align: left;
-        margin-top: 0em;
-    }
+	.picture {
+		width: 17em;
+		height: 17em;
+	}
 
-    .name {
-        font-size: 7em;
-    }
+	.info {
+		text-align: left;
+		margin-top: 0em;
+	}
 
-    .position {
-        font-size: 3.5em;
-    }
+	.name {
+		font-size: 7em;
+	}
 
-    .icon {
-        width: 3em;
-        height: 3em;
-    }
+	.position {
+		font-size: 3.5em;
+	}
 
-    .text {
-        margin-top: 10%;
-    }
+	.icon {
+		width: 3em;
+		height: 3em;
+	}
 
-    .heading {
-        font-size: 3em;
-    }
+	.text {
+		margin-top: 10%;
+	}
 
-    .subheading {
-        font-size: 2em;
-    }
+	.heading {
+		font-size: 3em;
+	}
 
-    video {
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
+	.subheading {
+		font-size: 2em;
+	}
 
-    .square {
-        width: 45%;
-    }
+	video {
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
 
-    .landscape {
-        width: 50%;
-    }
+	.square {
+		width: 45%;
+	}
 
-    .portrait {
-        height: 70%;
-        width: 50%;
-    }
+	.landscape {
+		width: 50%;
+	}
+
+	.portrait {
+		height: 70%;
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 411px) {
-    .heading {
-        font-size: 1.5em;
-    }
-    
-    .subheading {
-        font-size: 1em;
-    }
+	.heading {
+		font-size: 1.5em;
+	}
+
+	.subheading {
+		font-size: 1em;
+	}
 }
