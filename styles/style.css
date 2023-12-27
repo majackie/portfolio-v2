@@ -26,7 +26,7 @@ span {
 
 video {
 	max-width: 80vw;
-	max-height: 50vh;
+	max-height: calc(100vh - (25 * 4vw));
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
