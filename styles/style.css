@@ -18,14 +18,18 @@ a {
 
 section {
 	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 }
 
 span {
 	display: block;
+}
+
+video {
+	max-width: 80vw;
+	max-height: 50vh;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
 }
 
 /* classes */
@@ -37,6 +41,10 @@ span {
 	margin-right: auto;
 	text-align: center;
 	gap: 1.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .avatar {}
@@ -73,20 +81,33 @@ span {
 	filter: invert(100%);
 }
 
-.projects {}
+.projects {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	flex-direction: column;
+}
 
 .text {}
 
 .heading {
-	font-size: 3vw;
+	font-size: 5vw;
+	font-weight: bold;
 }
 
 .subheading {
-	font-size: 2vw;
+	font-size: 4vw;
 }
 
-.example {
-	display: none;
-}
+.example {}
+
+.square {}
+
+.portrait {}
+
+.landscape {}
 
 @media screen and (min-width: 480px) {}
