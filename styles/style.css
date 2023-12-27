@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
+/* elements */
+
 body {
 	background-color: black;
 	color: white;
@@ -8,10 +10,6 @@ body {
 	padding: 0;
 	line-height: 1;
 }
-
-/* .projects:nth-of-type(2n) {
-    background-color: grey;
-} */
 
 a {
 	text-decoration: none;
@@ -24,161 +22,71 @@ section {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	gap: 2em;
-}
-
-.about {
-	height: 100svh;
-}
-
-.projects {
-	justify-content: space-evenly;
-	gap: 0em;
-}
-
-.picture {
-	border-radius: 50%;
-	width: 17em;
-	height: 17em;
-	align-items: center;
-}
-
-.info {
-	text-align: center;
-	margin-top: 3em;
-}
-
-.name {
-	font-size: 5em;
-}
-
-.position {
-	font-size: 2.5em;
 }
 
 span {
 	display: block;
 }
 
+/* classes */
+
+.about {
+	width: 60%;
+	height: 100svh;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	gap: 1.5em;
+}
+
+.avatar {}
+
+.picture {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 50%;
+}
+
+.info {
+	width: 100%;
+}
+
+.name {
+	font-size: 20vw;
+}
+
+.position {
+	font-size: 10vw;
+}
+
+.contact {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
 .icon {
+	width: 14vw;
 	float: left;
-	width: 3em;
-	height: 3em;
 	-webkit-filter: invert(100%);
 	filter: invert(100%);
-	margin: 1.5em;
 }
 
-.text {
-	width: 80%;
-}
+.projects {}
+
+.text {}
 
 .heading {
-	font-size: 3.5vw;
-	font-weight: bold;
+	font-size: 3vw;
 }
 
 .subheading {
-	font-size: 2.5vw;
+	font-size: 2vw;
 }
 
-.square {
-	height: 40%;
-	width: 45%;
+.example {
+	display: none;
 }
 
-.landscape {
-	width: 45%;
-}
-
-.portrait {
-	height: 50%;
-	width: 45%;
-}
-
-@media screen and (min-width: 768px) {
-	.projects {
-		align-items: flex-start;
-		flex-direction: row;
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-
-	.about {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.content {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		gap: 2em;
-	}
-
-	.picture {
-		width: 17em;
-		height: 17em;
-	}
-
-	.info {
-		text-align: left;
-		margin-top: 0em;
-	}
-
-	.name {
-		font-size: 7em;
-	}
-
-	.position {
-		font-size: 3.5em;
-	}
-
-	.icon {
-		width: 3em;
-		height: 3em;
-	}
-
-	.text {
-		margin-top: 10%;
-		width: 40%;
-	}
-
-	.heading {
-		font-size: 3vw;
-		width: 90%;
-	}
-
-	.subheading {
-		font-size: 2vw;
-		width: 90%;
-	}
-
-	video {
-		margin-top: 10%;
-		margin-bottom: 10%;
-	}
-}
-
-@media screen and (max-width: 411px) {
-	.heading {
-		font-size: 1.5em;
-	}
-	
-	.subheading {
-		font-size: 1em;
-	}
-
-	.square {
-		width: 70%;
-	}
-
-	.landscape {
-		width: 80%;
-	}
-
-	.portrait {
-		height: 50%;
-		width: 50%;
-	}
-}
+@media screen and (min-width: 480px) {}
