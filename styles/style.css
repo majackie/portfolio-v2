@@ -68,6 +68,7 @@ video {
 
 .name {
 	font-size: 20vw;
+	margin-top: 1vw;
 }
 
 .position {
@@ -156,4 +157,84 @@ video {
 	}
 }
 
-@media screen and (min-width: 798px) {}
+@media screen and (min-width: 1024px) {
+	section {
+		height: 80vh;
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+	}
+
+	.about {
+		/* width: 717px; */
+		width: 50em;
+	}
+
+	.content {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		gap: 1em;
+	}
+
+	.avatar {
+		width: 50%;
+	}
+
+	.picture {
+		width: 18em;
+		height: 18em;
+		float: right;
+	}
+
+	.info {
+		width: 50%;
+		text-align: left;
+	}
+
+	.name {
+		font-size: 8em;
+		margin-top: 0;
+	}
+
+	.position {
+		font-size: 4em;
+	}
+
+	.contact {
+		gap: 2em;
+		justify-content: center;
+	}
+
+	.projects {
+		width: 80%;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.text {
+		width: calc(50% - 3em);
+		margin-right: 3em;
+	}
+
+	.heading {
+		font-size: 2.5em;
+	}
+
+	.subheading {
+		font-size: 1.5em;
+	}
+
+	.example {
+		width: calc(50% - 3em);
+		margin-left: 3em;
+		display: flex;
+		align-items: flex-start;
+	}
+
+	video {
+		height: auto;
+		max-height: 100%;
+	}
+}
