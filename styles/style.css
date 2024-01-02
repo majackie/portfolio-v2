@@ -196,6 +196,7 @@ video {
 
 	.projects {
 		width: 80%;
+		max-width: 1500px;
 		display: flex;
 		flex-direction: row;
 	}
