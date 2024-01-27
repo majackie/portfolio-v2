@@ -1,0 +1,226 @@
+%-------------------------
+% Resume in Latex
+% Original Template : sb2nov (https://github.com/sb2nov/resume)
+% Modified Template : Jake Gutierrez (https://github.com/jakegut/resume)
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+\usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------RESUME STARTS HERE-----------
+
+\begin{document}
+
+%-----------HEADING-----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{https://jackiema.ca/}{\Large Jackie Ma}} &
+%   \textbf{Vancouver, BC} \\
+%   \href{https://www.linkedin.com/in/majackie-/}{linkedin.com/in/majackie-/} &
+%   \href{mailto:jackiema.mzt@gmail.com}{jackiema.mzt@gmail.com} \\
+%   \href{https://jackiema.ca/}{jackiema.ca} &
+%   \href{tel:7789800709}{(778) 980-0709} \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape JACKIE MA} \\ \vspace{1pt}
+	\href{tel:7789800709}{\small(778) 980-0709} $|$ \href{mailto:jackiema.mzt@gmail.com}{{jackiema.mzt@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/majackie-/}{{linkedin.com/in/majackie-/}} $|$
+    \href{https://github.com/majackie}{{github.com/majackie}} $|$ \href{https://jackiema.ca/}{{jackiema.ca}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {BRITISH COLUMBIA INSTITUTE OF TECHNOLOGY}{Burnaby, BC}
+      {Diploma, Computer Systems Technology}{Jan 2022 -- Dec 2023}
+    \resumeSubheading
+      {BRITISH COLUMBIA INSTITUTE OF TECHNOLOGY}{Burnaby, BC}
+      {Diploma, Architectural and Building Technology}{Aug 2017 -- May 2020}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+	  {BINGHAM + HILL ARCHITECTS}{Vancouver, BC}
+      {Junior Technician (Keyholder)}{Sep 2021 -- Dec 2021}
+      \resumeItemListStart
+        \resumeItem{Interpreted drawing markups and implemented drawing revisions provided by architects and engineers}
+        \resumeItem{Provided specifications of required materials for clients and consultants}
+        \resumeItem{Reviewed and analyzed project specifications to ensure accuracy and compatibility with design intent}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+	  {SENG TSOI ARCHITECT}{Vancouver, BC}
+      {Building Technologist (Keyholder)}{Mar 2021 -- Sep 2021}
+      \resumeItemListStart
+        \resumeItem{Prepared architectural drawings and models while conforming to BCBC/VBBL and Zoning By-Laws}
+        \resumeItem{Prepared detail drawings and construction assemblies to meet Net Zero and Step 4/5 standards}
+        \resumeItem{Coordinated with manufacturers to compile project specifications based on design and client needs}
+    \resumeItemListEnd
+
+    \resumeSubheading
+	  {TELUS MOBILITY}{Vancouver, BC}
+      {Sales Representative (Keyholder)}{Jan 2014 -- Apr 2021}
+      \resumeItemListStart
+        \resumeItem{Provided excellent customer service by understanding client needs to recommend ideal services and devices}
+        \resumeItem{Coached team members on how to meet quotas and deescalate situations quickly and effectively}
+        \resumeItem{Commended for exceeding quotas every month and placing top on the leaderboards}
+      \resumeItemListEnd
+
+	\resumeSubheading
+	  {BURNABY CITY HALL}{Burnaby, BC}
+	  {Plan Checker \& Inspector (Practicum)}{Mar 2020}
+	  \resumeItemListStart
+	    \resumeItem{Assisted Plan Checkers with residential, commercial and civic markups}
+		\resumeItem{Assisted Inspectors with framing, insulation sheathing, plumbing and electrical inspections}
+	  \resumeItemListEnd
+
+	  \resumeSubheading
+	  {NCIX}{Vancouver, BC}
+	  {Sales Associate}{Mar 2013}
+	  \resumeItemListStart
+	    \resumeItem{Provided guidance and recommendations to customers seeking computer hardware and technology solutions}
+		\resumeItem{Assisted customers in making informed purchasing decisions by explaining product features and benefits}
+	  \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{CONTRACT PROJECTS}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{TeraDrive} $|$ \emph{Python, Flask, Monday.com API, PostgreSQL, ElephantSQL, Render}}{\textit{Sep 2023 -- Dec 2023}}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack web-based case tracking system with Monday.com API}
+            \resumeItem{Users can create an account to create, read, update and delete cases}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{MealPlanIQ} $|$ \emph{Python, Flask, Numpy, Pandas, PostgreSQL, Googld Cloud Platform}}{\textit{May 2023}}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack web-application to generate customized meal plans}
+            \resumeItem{Users can input their BMI and dietary restrictions for a more tailored meal plan}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, C\#, SQL, Swift, Kotlin, PHP, C, HTML, CSS} \\
+     \textbf{Frameworks}{: ASP.NET, Node.js, Flask, Laravel} \\
+     \textbf{Developer Tools}{: Git, Docker, Microsoft Azure, Google Cloud Platform} \\
+    }}
+ \end{itemize}
+
+%-----------INTERESTS-----------
+\section{INTERESTS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Sports}{: Soccer, Volleyball, Rugby, Powerlifting} \\
+     \textbf{Hobbies}{: FPS, MOBA, Architecture, Urban Planning, Woodworking} \\
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
