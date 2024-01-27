@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.26)  27 JAN 2024 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.26)  27 JAN 2024 14:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -377,18 +377,18 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/roboto/rbto_5xgh2b.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/roboto/rbto_schjax.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc}] (./Jackie_Ma_Resume.aux)
 Package rerunfilecheck Info: File `Jackie_Ma_Resume.out' has not changed.
-(rerunfilecheck)             Checksum: 1364E0F6BC1ED3A17809AA817B5B7216;526.
+(rerunfilecheck)             Checksum: 598F40C07444AD448F4FBE8F4ABBB585;478.
  ) 
 Here is how much of TeX's memory you used:
  11389 strings out of 476025
  186120 string characters out of 5790017
- 1882388 words of memory out of 5000000
+ 1885388 words of memory out of 5000000
  31675 multiletter control sequences out of 15000+600000
  529101 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,321b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on Jackie_Ma_Resume.pdf (1 page, 84259 bytes).
+Output written on Jackie_Ma_Resume.pdf (1 page, 85030 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
