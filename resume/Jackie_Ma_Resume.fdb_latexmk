@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1706394254 "/Users/jackiema/Documents/0/portfolio/resume/Jackie_Ma_Resume.tex" "Jackie_Ma_Resume.pdf" "Jackie_Ma_Resume" 1706394254 0
-  "/Users/jackiema/Documents/0/portfolio/resume/Jackie_Ma_Resume.tex" 1706394254 8798 1514d8000380f5185cf62b951439034c ""
+["pdflatex"] 1706673331 "/Users/jackiema/Documents/0/portfolio/resume/Jackie_Ma_Resume.tex" "Jackie_Ma_Resume.pdf" "Jackie_Ma_Resume" 1706673332 0
+  "/Users/jackiema/Documents/0/portfolio/resume/Jackie_Ma_Resume.tex" 1706673331 8796 1ff67adbc53c042451b9ae80d56eba8b ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/roboto/rbto_5xgh2b.enc" 1576101225 3167 77bc12697e37f56677cab0d82d1d1400 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc" 1576101225 2976 14f3c84565dd1bc57c13b9dc0aaeea06 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/roboto/rbto_schjax.enc" 1576101225 2974 729e60f1953f7d28deb744dead16208c ""
@@ -103,9 +103,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1706320495 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1706320458 7883462 69e4d605105d976bf535ab5fad4ed79c ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Jackie_Ma_Resume.aux" 1706394254 1171 d34fc2d1b1b52376061733693f7f684f "pdflatex"
-  "Jackie_Ma_Resume.out" 1706394254 478 598f40c07444ad448f4fbe8f4abbb585 "pdflatex"
-  "Jackie_Ma_Resume.tex" 1706394254 8798 1514d8000380f5185cf62b951439034c ""
+  "Jackie_Ma_Resume.aux" 1706673332 1171 d34fc2d1b1b52376061733693f7f684f "pdflatex"
+  "Jackie_Ma_Resume.out" 1706673332 478 598f40c07444ad448f4fbe8f4abbb585 "pdflatex"
+  "Jackie_Ma_Resume.tex" 1706673331 8796 1ff67adbc53c042451b9ae80d56eba8b ""
   (generated)
   "Jackie_Ma_Resume.aux"
   "Jackie_Ma_Resume.log"
