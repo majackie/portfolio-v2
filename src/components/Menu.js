@@ -4,6 +4,7 @@ import Dropdown from "./Dropdown";
 
 function Menu() {
   const [isOpen, setIsOpen] = useState(false);
+  const closeMenu = () => setIsOpen(false);
 
   return (
     <div className="relative">
@@ -20,7 +21,7 @@ function Menu() {
       </button>
       {isOpen && (
         <div className="absolute top-full">
-          <Dropdown />
+          <Dropdown closeMenu={closeMenu} />
         </div>
       )}
     </div>
