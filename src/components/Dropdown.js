@@ -1,7 +1,19 @@
-function Dropdown({closeMenu}) {
-  const handleLinkClick = (href) => {
+function Dropdown({ closeMenu }) {
+  const handleLinkClick = (event, href) => {
+    event.preventDefault();
     closeMenu();
-    document.querySelector(href).scrollIntoView({ behavior: "smooth" });
+    const element = document.querySelector(href);
+    const navbar = document.querySelector("#navbar");
+    const navbarHeight = navbar ? navbar.offsetHeight : 0;
+    if (element) {
+      const elementPosition = Math.max(element.offsetTop - navbarHeight, 0);
+      window.scrollTo({
+        top: elementPosition,
+        behavior: "smooth",
+      });
+    } else {
+      console.error("Target element not found for href:", href);
+    }
   };
 
   return (
@@ -14,19 +26,41 @@ function Dropdown({closeMenu}) {
     >
       <ul className="space-y-2 text-center transform -translate-y-16">
         <li>
-          <a href="#about" onClick={() => handleLinkClick("#about")}>About</a>
+          <a href="#about" onClick={(event) => handleLinkClick(event, "#about")}>
+            About
+          </a>
         </li>
         <li>
-          <a href="#experience" onClick={() => handleLinkClick("#experience")}>Experience</a>
+          <a
+            href="#experience"
+            onClick={(event) => handleLinkClick(event, "#experience")}
+          >
+            Experience
+          </a>
         </li>
         <li>
-          <a href="#projects" onClick={() => handleLinkClick("#projects")}>Projects</a>
+          <a
+            href="#projects"
+            onClick={(event) => handleLinkClick(event, "#projects")}
+          >
+            Projects
+          </a>
         </li>
         <li>
-          <a href="#techstack" onClick={() => handleLinkClick("#techstack")}>Tech Stack</a>
+          <a
+            href="#techstack"
+            onClick={(event) => handleLinkClick(event, "#techstack")}
+          >
+            Tech Stack
+          </a>
         </li>
         <li>
-          <a href="#education" onClick={() => handleLinkClick("#education")}>Education</a>
+          <a
+            href="#education"
+            onClick={(event) => handleLinkClick(event, "#education")}
+          >
+            Education
+          </a>
         </li>
       </ul>
     </div>

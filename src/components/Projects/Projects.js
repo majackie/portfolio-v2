@@ -8,7 +8,7 @@ import Calculator from "./Calculator";
 
 function Projects() {
   return (
-    <section id="projects" className="mt-4">
+    <div id="projects" className="mt-4">
       <div className="text-2xl">Projects</div>
       <hr className="my-2" />
       <div className="mt-2 space-y-4">
@@ -20,7 +20,7 @@ function Projects() {
         <BloodPressure />
         <Calculator />
       </div>
-    </section>
+    </div>
   );
 }
 
