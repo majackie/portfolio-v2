@@ -8,9 +8,9 @@ function About() {
       <img
         src={avatar}
         alt="Jackie Ma"
-        className="w-24 h-24 rounded-full mr-6"
+        className="w-24 h-24 rounded-full"
       />
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center pl-4">
         <div className="text-4xl font-bold">Jackie Ma</div>
         <div className="text-lg ">Software Developer</div>
         <div className="mt-1 flex space-x-2">
