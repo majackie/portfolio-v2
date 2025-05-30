@@ -4,7 +4,7 @@ import { TbBrandLinkedin, TbBrandGithub, TbFileCv } from "react-icons/tb";
 
 function About() {
   return (
-    <section class="about" className="flex flex-row text-black dark:text-white">
+    <section id="about" className="flex flex-row text-black dark:text-white">
       <img
         src={avatar}
         alt="Jackie Ma"

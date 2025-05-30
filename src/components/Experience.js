@@ -1,6 +1,6 @@
 function Experience() {
   return (
-    <section id="experience" className="pt-4">
+    <section id="experience" className="mt-4">
       <div className="text-2xl">Experience</div>
       <hr className="my-2" />
       <div>
@@ -34,8 +34,7 @@ function Experience() {
           </li>
         </ul>
       </div>
-      <br />
-      <div>
+      <div className="mt-2">
         <div className="flex justify-between">
           <div className="font-bold">Software Developer</div>
           <div>Apr 2023 - May 2023</div>
@@ -62,8 +61,7 @@ function Experience() {
           </li>
         </ul>
       </div>
-      <br />
-      <div>
+      <div className="mt-2">
         <div className="flex justify-between">
           <div className="font-bold">Junior Technician</div>
           <div>Sep 2021 - Dec 2021</div>
@@ -86,8 +84,7 @@ function Experience() {
           </li>
         </ul>
       </div>
-      <br />
-      <div>
+      <div className="mt-2">
         <div className="flex justify-between">
           <div className="font-bold">Building Technologist</div>
           <div>Mar 2021 - Sep 2021</div>
@@ -109,8 +106,7 @@ function Experience() {
           </li>
         </ul>
       </div>
-      <br />
-      <div>
+      <div className="mt-2">
         <div className="flex justify-between">
           <div className="font-bold">Sales Representative</div>
           <div>Jan 2014 - Apr 2021</div>

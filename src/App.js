@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
+import Projects from "./components/Projects/Projects";
 import TechStack from "./components/TechStack";
 import Education from "./components/Education";
 
