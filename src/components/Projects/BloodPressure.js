@@ -9,7 +9,7 @@ function BloodPressure() {
     <div>
       <Description
         title="Blood Pressure"
-        description="A SwiftUI app that helps you keep track of family members' blood pressure readings."
+        text="Keep track of family member's blood pressure readings."
         sourceCodeUrl="https://github.com/majackie/blood_pressure_assignment"
       />
       <Demo src="/assets/videos/bloodpressure.webm" alt="Blood Pressure Demo" />

@@ -1,13 +1,13 @@
 function Demo({ src, alt }) {
   return (
-    <div className="border border-black rounded dark:border-gray-800 m1 mb-1">
+    <div className="mt-1">
       <video
         autoPlay
         muted
         loop
         disableRemotePlayback
         playsInline
-        className="w-full max-w-lg rounded"
+        className="w-full max-w-lg border border-black rounded-lg dark:border-gray-800"
         alt={alt}
       >
         <source src={src} type="video/webm" />
