@@ -1,3 +1,4 @@
+import Description from "./Description";
 import Demo from "./Demo";
 import Badge from "./Badge";
 import { FaMicrosoft } from "react-icons/fa";
@@ -7,11 +8,10 @@ import { TbBrandCSharp } from "react-icons/tb";
 function Charity() {
   return (
     <div>
-      <div className="font-bold">Charity</div>
-      <div>
-        Management system for charity to collect donations and provide tax
-        receipts.
-      </div>
+      <Description
+        title="Charity"
+        text="A charity donation platform that allows users to donate to various causes."
+      />
       <Demo src="/assets/videos/charity.webm" alt="Charity Demo" />
       <div className="flex flex-wrap gap-1 mt-2">
         <Badge icon={TbBrandCSharp} label="C#" title="C#" />
