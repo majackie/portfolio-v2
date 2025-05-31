@@ -1,4 +1,4 @@
-import avatar from "../assets/images/avatar3.jpg";
+import avatar from "../assets/images/avatar3.png";
 import resume from "../assets/resume/Jackie_Ma_Resume.pdf";
 import { TbBrandLinkedin, TbBrandGithub, TbFileCv } from "react-icons/tb";
 
@@ -43,9 +43,7 @@ function About() {
         I create clean, efficient and scalable applications that address
         real-world needs. I hold a diploma in Computer Systems Technology from
         BCIT and am currently pursuing a Bachelor of Science in Applied Computer
-        Science. I am seeking full-time opportunities where I can collaborate
-        with a team, take on new challenges and continue growing as a developer.
-        Outside of tech, I enjoy architecture, powerlifting, soccer and
+        Science. Outside of tech, I enjoy architecture, powerlifting, soccer and
         volleyball.
       </div>
     </div>
