@@ -1,6 +1,6 @@
 # Portfolio
 
-Personal Portfolio
+Personal Portfolio v2
 
 ## Description
 
@@ -8,7 +8,8 @@ Explore my personal portfolio showcasing various projects.
 
 ## Installation
 
-NA
+1. npm install
+2. npm start
 
 ## Contributors
 

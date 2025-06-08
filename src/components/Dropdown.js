@@ -113,6 +113,14 @@ function Dropdown({ closeMenu }) {
           Education
         </a>
       </li>
+      <li className="pt-4">
+        <a
+          href="https://portfolio-v1-jkm.netlify.app/"
+          className={linkClass("#")}
+        >
+          Portfolio v1
+        </a>
+      </li>
     </ul>
   );
 }

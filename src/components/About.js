@@ -1,5 +1,4 @@
 import avatar from "../assets/images/avatar3.png";
-import resume from "../assets/resume/Jackie_Ma_Resume.pdf";
 import { TbBrandLinkedin, TbBrandGithub, TbFileCv } from "react-icons/tb";
 
 function About() {
@@ -28,7 +27,7 @@ function About() {
               <TbBrandGithub className="text-black dark:text-white text-2xl" />
             </a>
             <a
-              href={resume}
+              href="/assets/resume/Jackie_Ma_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-400"
