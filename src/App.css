@@ -39,6 +39,7 @@
 
 html, body {
   background-color: white;
+  overscroll-behavior: none;
 }
 
 html.dark, body.dark {

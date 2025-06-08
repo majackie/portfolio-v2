@@ -1,6 +1,44 @@
+import { useState, useEffect, useRef } from "react";
+
 function Dropdown({ closeMenu }) {
+  const [activeHref, setActiveHref] = useState("");
+  const isClickScrolling = useRef(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (isClickScrolling.current) {
+        return;
+      }
+      const sections = [
+        "#about",
+        "#experience",
+        "#projects",
+        "#techstack",
+        "#education",
+      ];
+      const navbar = document.querySelector("#navbar");
+      const navbarHeight = navbar ? navbar.offsetHeight : 0;
+      let current = "";
+      for (const href of sections) {
+        const section = document.querySelector(href);
+        if (section) {
+          const sectionTop = section.getBoundingClientRect().top - navbarHeight;
+          if (sectionTop <= 10) {
+            current = href;
+          }
+        }
+      }
+      setActiveHref(current || sections[0]);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const handleClick = (event, href) => {
     event.preventDefault();
+    setActiveHref(href);
+    isClickScrolling.current = true;
     const element = document.querySelector(href);
     const navbar = document.querySelector("#navbar");
     const navbarHeight = navbar ? navbar.offsetHeight : 0;
@@ -11,7 +49,11 @@ function Dropdown({ closeMenu }) {
         top: elementPosition,
         behavior: "smooth",
       });
+      setTimeout(() => {
+        isClickScrolling.current = false;
+      }, 1000);
     } else {
+      isClickScrolling.current = false;
       console.error("Target element not found for href:", href);
     }
     if (window.innerWidth < 1024 && closeMenu) {
@@ -19,16 +61,26 @@ function Dropdown({ closeMenu }) {
     }
   };
 
+  const linkClass = (href) =>
+    `${
+      activeHref === href ? "text-blue-400 font-bold text-xl" : "hover:text-blue-400"
+    }`;
+
   return (
-    <ul className="space-y-2 lg:space-y-0 text-center lg:text-left transform lg:transform-none -translate-y-16 lg:text-xl">
+    <ul className="space-y-2 lg:space-y-0 text-center lg:text-left lg:text-lg transform lg:transform-none -translate-y-16">
       <li className="lg:hidden">
-        <a href="#about" onClick={(event) => handleClick(event, "#about")}>
+        <a
+          href="#about"
+          className={linkClass("#about")}
+          onClick={(event) => handleClick(event, "#about")}
+        >
           About
         </a>
       </li>
       <li>
         <a
           href="#experience"
+          className={linkClass("#experience")}
           onClick={(event) => handleClick(event, "#experience")}
         >
           Experience
@@ -37,6 +89,7 @@ function Dropdown({ closeMenu }) {
       <li>
         <a
           href="#projects"
+          className={linkClass("#projects")}
           onClick={(event) => handleClick(event, "#projects")}
         >
           Projects
@@ -45,6 +98,7 @@ function Dropdown({ closeMenu }) {
       <li>
         <a
           href="#techstack"
+          className={linkClass("#techstack")}
           onClick={(event) => handleClick(event, "#techstack")}
         >
           Tech Stack
@@ -53,6 +107,7 @@ function Dropdown({ closeMenu }) {
       <li>
         <a
           href="#education"
+          className={linkClass("#education")}
           onClick={(event) => handleClick(event, "#education")}
         >
           Education
