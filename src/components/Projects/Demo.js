@@ -1,6 +1,6 @@
 function Demo({ src, alt }) {
   return (
-    <div className="mt-1">
+    <div className="mt-1 flex justify-center">
       <video
         autoPlay
         muted

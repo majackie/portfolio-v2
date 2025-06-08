@@ -38,7 +38,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="mt-2 text-sm">
+      <div className="mt-2 text-sm lg:text-base">
         As a software developer passionate about IT and full-stack development,
         I create clean, efficient and scalable applications that address
         real-world needs. I hold a diploma in Computer Systems Technology from

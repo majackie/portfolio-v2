@@ -1,6 +1,6 @@
 function Education() {
   return (
-    <div id="education" className="mt-4">
+    <div id="education" className="pt-4">
       <div className="text-2xl">Education</div>
       <hr className="my-2" />
       <div className="text-sm">
@@ -33,6 +33,31 @@ function Education() {
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

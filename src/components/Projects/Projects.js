@@ -8,7 +8,7 @@ import Calculator from "./Calculator";
 
 function Projects() {
   return (
-    <div id="projects" className="mt-4">
+    <div id="projects" className="pt-4">
       <div className="text-2xl">Projects</div>
       <hr className="my-2" />
       <div className="mt-2 space-y-4">

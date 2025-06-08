@@ -21,7 +21,15 @@ function Menu() {
       </button>
       {isOpen && (
         <div className="absolute top-full">
-          <Dropdown closeMenu={closeMenu} />
+          <div
+            className="bg-white dark:bg-black h-screen w-screen flex items-center justify-center"
+            style={{
+              height: "calc(100vh - 2rem)",
+              width: "calc(100vw - 2rem)",
+            }}
+          >
+            <Dropdown closeMenu={closeMenu} />
+          </div>
         </div>
       )}
     </div>
