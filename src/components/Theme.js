@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
 
 function Theme() {
@@ -6,7 +6,7 @@ function Theme() {
     window.matchMedia("(prefers-color-scheme: dark)").matches
   );
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     document.documentElement.classList.toggle("dark", dark);
   }, [dark]);
 

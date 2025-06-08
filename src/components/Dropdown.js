@@ -1,10 +1,10 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useLayoutEffect, useRef } from "react";
 
 function Dropdown({ closeMenu }) {
   const [activeHref, setActiveHref] = useState("");
   const isClickScrolling = useRef(false);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const handleScroll = () => {
       if (isClickScrolling.current) {
         return;
