@@ -17,6 +17,7 @@ import {
   SiHuggingface,
   SiRender,
 } from "react-icons/si";
+import DemoVideo from "../../assets/videos/promptvisioquiz.webm";
 
 function PromptVisioQuiz() {
   return (
@@ -27,7 +28,7 @@ function PromptVisioQuiz() {
         sourceCodeUrl="https://github.com/majackie/PromptVisioQuiz"
       />
       <Demo
-        src="/assets/videos/promptvisioquiz.webm"
+        src={DemoVideo}
         alt="PromptVisioQuiz Demo"
       />
       <div className="flex flex-wrap gap-1 mt-2">

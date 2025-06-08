@@ -4,6 +4,7 @@ import Badge from "./Badge";
 import { FaMicrosoft } from "react-icons/fa";
 import { SiDotnet, SiSqlite, SiBlazor } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
+import DemoVideo from "../../assets/videos/charity.webm";
 
 function Charity() {
   return (
@@ -12,7 +13,7 @@ function Charity() {
         title="Charity"
         text="A charity donation platform that allows users to donate to various causes."
       />
-      <Demo src="/assets/videos/charity.webm" alt="Charity Demo" />
+      <Demo src={DemoVideo} alt="Charity Demo" />
       <div className="flex flex-wrap gap-1 mt-2">
         <Badge icon={TbBrandCSharp} label="C#" title="C#" />
         <Badge icon={SiDotnet} label="ASP.NET Core" title="ASP.NET Core" />

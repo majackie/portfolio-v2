@@ -1,8 +1,9 @@
 import Description from "./Description";
 import Demo from "./Demo";
 import Badge from "./Badge";
-import { FaHtml5, FaCss3Alt, FaJs, FaGithub, FaLink } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
+import DemoVideo from "../../assets/videos/calculator.webm";
 
 function Calculator() {
   return (
@@ -13,7 +14,7 @@ function Calculator() {
         sourceCodeUrl="https://github.com/majackie/calculator"
         hostedUrl="https://calculator-jkm.netlify.app/"
       />
-      <Demo src="/assets/videos/calculator.webm" alt="Calculator Demo" />
+      <Demo src={DemoVideo} alt="Calculator Demo" />
       <div className="flex flex-wrap gap-1 mt-2">
         <Badge icon={FaHtml5} label="HTML" title="HTML" />
         <Badge icon={FaCss3Alt} label="CSS" title="CSS" />

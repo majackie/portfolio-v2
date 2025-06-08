@@ -9,6 +9,7 @@ import {
   SiTypescript,
   SiAngular,
 } from "react-icons/si";
+import DemoVideo from "../../assets/videos/mealplaniq.webm";
 
 function MealPlanIQ() {
   return (
@@ -17,7 +18,7 @@ function MealPlanIQ() {
         title="MealPlanIQ"
         text="Customize meal planning to promote health and prevent diseases, while catering to dietary needs and preferences."
       />
-      <Demo src="/assets/videos/mealplaniq.webm" alt="MealPlanIQ Demo" />
+      <Demo src={DemoVideo} alt="MealPlanIQ Demo" />
       <div className="flex flex-wrap gap-1 mt-2">
         <Badge icon={FaPython} label="Python" title="Python" />
         <Badge icon={FaFlask} label="Flask" title="Flask" />

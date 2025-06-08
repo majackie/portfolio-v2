@@ -3,6 +3,7 @@ import Demo from "./Demo";
 import Badge from "./Badge";
 import { FaJs, FaChrome } from "react-icons/fa";
 import { SiGooglechrome } from "react-icons/si";
+import DemoVideo from "../../assets/videos/togglesidebar.webm";
 
 function ToggleSidebar() {
   return (
@@ -13,7 +14,7 @@ function ToggleSidebar() {
         sourceCodeUrl="https://github.com/majackie/ToggleSidebar"
         hostedUrl="https://chromewebstore.google.com/detail/toggle-sidebar/ejkcciildkjbakbjngbenpbmioheecnb"
       />
-      <Demo src="/assets/videos/togglesidebar.webm" alt="Toggle Sidebar Demo" />
+      <Demo src={DemoVideo} alt="Toggle Sidebar Demo" />
       <div className="flex flex-wrap gap-1 mt-2">
         <Badge icon={FaJs} label="JavaScript" title="JavaScript" />
         <Badge
