@@ -10,7 +10,7 @@ function HarmonyHub() {
     <div>
       <Description
         title="HarmonyHub"
-        description="Look up details for artists, albums, playlists and profiles. Retrieve
+        text="Look up details for artists, albums, playlists and profiles. Retrieve
         most played artists and tracks to generate a new playlist."
         sourceCodeUrl="https://github.com/majackie/HarmonyHub"
       />

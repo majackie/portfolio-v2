@@ -7,7 +7,7 @@ function Demo({ src, alt }) {
         loop
         disableRemotePlayback
         playsInline
-        className="w-full max-w-lg border border-black rounded-lg dark:border-gray-800"
+        className="max-h-[65vh] border border-black rounded-lg dark:border-gray-800"
         alt={alt}
       >
         <source src={src} type="video/webm" />
