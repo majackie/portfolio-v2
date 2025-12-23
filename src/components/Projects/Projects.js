@@ -1,4 +1,5 @@
 import MealPlanIQ from "./MealPlanIQ";
+import DistributedHashRecovery from "./DistributedHashRecovery.js";
 import PromptVisioQuiz from "./PromptVisioQuiz";
 import ToggleSidebar from "./ToggleSidebar";
 import HarmonyHub from "./HarmonyHub";
@@ -13,6 +14,7 @@ function Projects() {
       <hr className="my-2" />
       <div className="mt-2 space-y-4">
         <PromptVisioQuiz />
+        <DistributedHashRecovery />
         <MealPlanIQ />
         <ToggleSidebar />
         <HarmonyHub />
