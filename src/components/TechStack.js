@@ -2,20 +2,15 @@ import {
   FaPython,
   FaJava,
   FaJs,
-  FaHtml5,
-  FaCss3Alt,
-  FaSwift,
-  FaPhp,
+  FaDatabase,
   FaReact,
 } from "react-icons/fa";
 import { TbBrandCSharp, TbBrandTailwind, } from "react-icons/tb";
 import {
-  SiKotlin,
   SiDotnet,
   SiNodedotjs,
   SiExpress,
   SiFlask,
-  SiLaravel,
   SiPostgresql,
   SiMysql,
   SiMariadb,
@@ -29,11 +24,7 @@ function TechStack() {
     { icon: FaJava, label: "Java" },
     { icon: FaJs, label: "JavaScript" },
     { icon: TbBrandCSharp, label: "C#" },
-    { icon: SiKotlin, label: "Kotlin" },
-    { icon: FaPhp, label: "PHP" },
-    { icon: FaHtml5, label: "HTML" },
-    { icon: FaCss3Alt, label: "CSS" },
-    { icon: FaSwift, label: "Swift" },
+    { icon: FaDatabase, label: "SQL" },
   ];
 
   const frameworks = [
@@ -41,7 +32,6 @@ function TechStack() {
     { icon: SiNodedotjs, label: "Node.js" },
     { icon: SiExpress, label: "Express.js" },
     { icon: SiFlask, label: "Flask" },
-    { icon: SiLaravel, label: "Laravel" },
     { icon: FaReact, label: "React" },
     { icon: TbBrandTailwind, label: "Tailwind" },
   ];
