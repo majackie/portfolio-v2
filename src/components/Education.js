@@ -4,7 +4,7 @@ function Education() {
       <div className="text-2xl">Education</div>
       <hr className="my-2" />
       <div className="text-sm lg:text-base">
-        <div className="mt-4">
+        <div className="mt-2">
           <div className="font-bold">
             Bachelor of Science in Applied Computer Science
           </div>
@@ -14,7 +14,7 @@ function Education() {
             <span>Sep 2024 - May 2026</span>
           </div>
         </div>
-        <div className="mt-4">
+        <div className="mt-2">
           <div className="font-bold">
             Diploma in Computer Systems Technology
           </div>
@@ -24,7 +24,7 @@ function Education() {
             <span>Jan 2022 - Dec 2023</span>
           </div>
         </div>
-        <div className="mt-4">
+        <div className="mt-2">
           <div className="font-bold">
             Diploma in Architectural and Building Technology
           </div>

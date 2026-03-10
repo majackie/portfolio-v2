@@ -3,7 +3,33 @@ function Experience() {
     <div id="experience" className="pt-4">
       <div className="text-2xl">Experience</div>
       <hr className="my-2" />
-      <div>
+      <div className="mt-2">
+        <div className="flex justify-between">
+          <div className="font-bold">IT Consultant</div>
+          <div>May 2024 - Present</div>
+        </div>
+        <div className="flex justify-between italic">
+          <div className="justify-start">Self-employed</div>
+          <div className="justify-end">Vancouver, BC</div>
+        </div>
+        <ul className="list-disc pl-6">
+          <li>
+            Surrey Cash for Gold relied on error-prone Excel files with no
+            backup or remote access; migrated all data to an on-premises
+            PostgreSQL database with nightly automated sync, OS imaged four
+            workstations and sourced hardware tailored to client needs,
+            modernizing operations and eliminating data loss risk
+          </li>
+          <li>
+            Co Chau operated with no suitable hardware, payment system or
+            security infrastructure; assembled a custom workstation, integrated
+            a POS system and installed six on-premises IP cameras with remote
+            live monitoring and automated backup, saving $720/year over
+            cloud-based alternatives
+          </li>
+        </ul>
+      </div>
+      <div className="mt-2">
         <div className="flex justify-between">
           <div className="font-bold">Full-Stack Developer</div>
           <div>Sep 2023 - Dec 2023</div>
