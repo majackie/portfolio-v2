@@ -13,8 +13,8 @@ function Projects() {
       <div className="text-2xl">Projects</div>
       <hr className="my-2" />
       <div className="mt-2 space-y-4">
-        <PromptVisioQuiz />
         <DistributedHashRecovery />
+        <PromptVisioQuiz />
         <MealPlanIQ />
         <ToggleSidebar />
         <HarmonyHub />
