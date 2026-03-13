@@ -1,6 +1,7 @@
-import MealPlanIQ from "./MealPlanIQ";
 import DistributedHashRecovery from "./DistributedHashRecovery.js";
+import MealPlanIQ from "./MealPlanIQ";
 import PromptVisioQuiz from "./PromptVisioQuiz";
+import Netflix1080pUA from "./Netflix1080pUA";
 import ToggleSidebar from "./ToggleSidebar";
 import HarmonyHub from "./HarmonyHub";
 import Charity from "./Charity";
@@ -16,6 +17,7 @@ function Projects() {
         <DistributedHashRecovery />
         <PromptVisioQuiz />
         <MealPlanIQ />
+        <Netflix1080pUA />
         <ToggleSidebar />
         <HarmonyHub />
         <Charity />

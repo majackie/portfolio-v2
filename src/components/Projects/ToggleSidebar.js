@@ -2,7 +2,6 @@ import Description from "./Description";
 import Demo from "./Demo";
 import Badge from "./Badge";
 import { FaJs, FaChrome } from "react-icons/fa";
-import { SiGooglechrome } from "react-icons/si";
 import DemoVideo from "../../assets/videos/togglesidebar.webm";
 
 function ToggleSidebar() {
@@ -21,11 +20,6 @@ function ToggleSidebar() {
           icon={FaChrome}
           label="Google Chrome Extension"
           title="Google Chrome Extension"
-        />
-        <Badge
-          icon={SiGooglechrome}
-          label="Chrome Web Store"
-          title="Chrome Web Store"
         />
       </div>
     </div>
