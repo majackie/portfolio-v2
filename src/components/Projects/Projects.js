@@ -14,10 +14,10 @@ function Projects() {
       <div className="text-2xl">Projects</div>
       <hr className="my-2" />
       <div className="mt-2 space-y-4">
+        <Netflix1080pUA />
         <DistributedHashRecovery />
         <PromptVisioQuiz />
         <MealPlanIQ />
-        <Netflix1080pUA />
         <ToggleSidebar />
         <HarmonyHub />
         <Charity />
